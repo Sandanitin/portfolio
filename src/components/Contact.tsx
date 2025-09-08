@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Container from './ui/Container'
-import SectionTitle from './ui/SectionTitle'
 
 const emailTo = 'sainithin95054@gmail.com'
 const phone = '+91 9505492525'

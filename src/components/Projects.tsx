@@ -1,6 +1,5 @@
 import React from 'react'
 import Container from './ui/Container'
-import SectionTitle from './ui/SectionTitle'
 
 type Project = {
   title: string
