@@ -264,7 +264,7 @@ const About: React.FC = () => {
                       </div>
                       <div className="flex-1 min-w-0">
                         <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-1 sm:mb-2">Diploma in Agriculture</h3>
-                        <p className="text-[#67e8f9] text-sm sm:text-base lg:text-lg mb-1">Nagayalanka Polytechnic</p>
+                        <p className="text-[#67e8f9] text-sm sm:text-base lg:text-lg mb-1"> Dr. D. Rama Naidu Vignana Jyothi Agricultural Engineering Polytechnic</p>
                         <p className="text-gray-400 text-sm sm:text-base">2017–2020</p>
                       </div>
                     </div>
