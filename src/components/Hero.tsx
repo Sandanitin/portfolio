@@ -121,6 +121,9 @@ const Hero: React.FC = () => {
                   src={NithinImg}
                   alt="Sanda Nithin - Full-Stack Developer specializing in React, TypeScript, and Node.js - Professional portfolio photo"
                   className="w-full h-full object-cover"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
                   onError={onImgError}
                 />
               </div>

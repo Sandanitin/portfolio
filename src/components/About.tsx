@@ -60,7 +60,14 @@ const About: React.FC = () => {
               <div className="absolute -inset-2 sm:-inset-3 border border-[#06b6d4]/20 transform -rotate-3 rounded-2xl"></div>
               
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
-                <img src={NithinImg} alt="Sanda Nithin working on web development projects - About section professional photo" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" onError={onImgError} />
+                <img 
+                  src={NithinImg} 
+                  alt="Sanda Nithin working on web development projects - About section professional photo" 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+                  loading="lazy"
+                  decoding="async"
+                  onError={onImgError} 
+                />
               </div>
               
               {/* Creative floating elements - hidden on mobile */}
