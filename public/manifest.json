@@ -1,0 +1,20 @@
+{
+  "name": "Sanda Nithin - Full-Stack Developer Portfolio",
+  "short_name": "Sanda Nithin",
+  "description": "Professional full-stack developer specializing in React, TypeScript, Node.js, and Tailwind CSS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0b",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "technology", "development"],
+  "lang": "en-US"
+}

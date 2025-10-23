@@ -119,7 +119,7 @@ const Hero: React.FC = () => {
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
                 <img
                   src={NithinImg}
-                  alt="Portrait"
+                  alt="Sanda Nithin - Full-Stack Developer specializing in React, TypeScript, and Node.js - Professional portfolio photo"
                   className="w-full h-full object-cover"
                   onError={onImgError}
                 />

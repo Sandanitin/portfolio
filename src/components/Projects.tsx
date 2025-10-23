@@ -35,6 +35,13 @@ const projects: Project[] = [
   },
 ]
 
+const projectAltTexts: Record<string, string> = {
+  'E‑commerce Admin Panel (Beaten)': 'E-commerce admin panel dashboard built with React showing product catalog management, category organization, and inventory control features',
+  'Ma Amma Ruchulu': 'Ma Amma Ruchulu traditional food ordering application featuring authentic Indian pickles and homemade products with modern e-commerce functionality',
+  'Digital Billionaire': 'Digital Billionaire marketing website showcasing modern UI design with responsive layout built using Vite and React framework',
+  'Logistics Management App': 'Logistics management application dashboard displaying shipment tracking, workflow management, and real-time delivery status monitoring system',
+}
+
 const Projects: React.FC = () => {
   return (
     <section id="projects" className="py-12 sm:py-16 lg:py-20 xl:py-32 relative overflow-hidden">
@@ -87,7 +94,7 @@ const Projects: React.FC = () => {
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img 
                     src={p.image} 
-                    alt={p.title} 
+                    alt={projectAltTexts[p.title]} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
                   />
                   
